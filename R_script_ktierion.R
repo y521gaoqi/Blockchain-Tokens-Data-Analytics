@@ -1,4 +1,3 @@
-## Read in the BAT token
 library(magrittr)
 library(dplyr)
 library(ggplot2)
@@ -157,27 +156,37 @@ tierion_filtered
 tierion_merged<-merge(x = tierion_prices, y = tierion_filtered, by = "date", all.x = TRUE)
 View(tierion_merged)
 
-filter_K_tierion_merged<-filter(tierion_merged,toID %in% top_10_buyers$toID)
+filter_K_tierion_merged<-filter(tierion_merged,toID %in% top_30_buyers$toID)
 View(filter_K_tierion_merged)
 View(top_100_buyers$toID)
 
 #get average price from open and close price and add it as a new column
 filter_K_tierion_merged=transform(filter_K_tierion_merged,average_price= (Open+Close)/2)
 View(filter_K_tierion_merged)
-filered<-filter_K_tierion_merged%>% group_by(toID) %>% summarise(n = n(),average_price=mean(average_price)) %>% ungroup 
+filered<-filter_K_tierion_merged%>% group_by(toID) %>% summarise(n = n(),average_price=mean(average_price),tokenAmount=sum(tokenAmount)) %>% ungroup 
 View(filered)
 
-regression<-lm(filered$average_price~filered$n)
+regression<-lm(filered$average_price~filered$tokenAmount)
 regression
 par(mfcol=c(2,2))
 plot(regression)
 summary(regression)  #explaination of detail result: https://blog.csdn.net/lilanfeng1991/article/details/29627405\
 par(mfcol=c(1,1))
-plot(filered$n,filered$average_price)
+plot(filered$tokenAmount,filered$average_price)
 abline(regression)
 ############################################################################
 
 
+##################################test##############################
+data<-data.frame(c(1,2,3,4,5,6,7,8,9),c(1,2,3,4,5,6,7,9,10))
+names(data)<-c("x","y")
+regression<-lm(data$y~data$x)
+regression
+summary(regression)
+par(mfcol=c(1,1))
+plot(data$x,data$y)
+abline(regression)
+####################################################################
 
 
 
