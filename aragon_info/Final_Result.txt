@@ -1,0 +1,1380 @@
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.80414 -0.21420 -0.01523  0.16407  2.43892 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.071e-01  6.382e-02   1.678   0.0943 .  
+filered$tokenAmount  4.235e-24  1.888e-24   2.243   0.0255 *  
+filered$n           -4.438e-04  4.554e-04  -0.974   0.3305    
+filered$Open         9.535e-01  1.830e-02  52.098   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4359 on 344 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.8963,	Adjusted R-squared:  0.8954 
+F-statistic: 991.3 on 3 and 344 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.81904 -0.21130 -0.01637  0.16358  2.44624 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.342e-01  6.414e-02   2.092   0.0371 *  
+filered$tokenAmount  2.282e-24  1.540e-24   1.482   0.1394    
+filered$n           -2.591e-04  2.349e-04  -1.103   0.2707    
+filered$Open         9.514e-01  1.851e-02  51.410   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.438 on 344 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.8953,	Adjusted R-squared:  0.8944 
+F-statistic: 980.6 on 3 and 344 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.84077 -0.22621 -0.02931  0.17692  2.44970 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.660e-01  5.976e-02   2.779  0.00576 ** 
+filered$tokenAmount  7.198e-26  7.212e-25   0.100  0.92055    
+filered$n           -4.738e-05  1.873e-04  -0.253  0.80047    
+filered$Open         9.495e-01  1.783e-02  53.249  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8991 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.84007 -0.22581 -0.02683  0.17645  2.44847 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.609e-01  6.079e-02   2.647   0.0085 ** 
+filered$tokenAmount  2.032e-25  6.928e-25   0.293   0.7695    
+filered$n           -6.268e-05  1.880e-04  -0.333   0.7391    
+filered$Open         9.503e-01  1.783e-02  53.287   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83886 -0.22550 -0.02617  0.17575  2.44833 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.598e-01  6.069e-02   2.633  0.00884 ** 
+filered$tokenAmount  2.256e-25  6.916e-25   0.326  0.74448    
+filered$n           -5.560e-05  1.879e-04  -0.296  0.76754    
+filered$Open         9.502e-01  1.782e-02  53.329  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83941 -0.22609 -0.02684  0.17654  2.44862 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.610e-01  6.082e-02   2.648  0.00848 ** 
+filered$tokenAmount  1.953e-25  6.915e-25   0.282  0.77775    
+filered$n           -5.636e-05  1.879e-04  -0.300  0.76439    
+filered$Open         9.501e-01  1.782e-02  53.320  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83970 -0.22636 -0.02708  0.17682  2.44869 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.615e-01  6.092e-02   2.650  0.00841 ** 
+filered$tokenAmount  1.857e-25  6.909e-25   0.269  0.78821    
+filered$n           -5.748e-05  1.879e-04  -0.306  0.75982    
+filered$Open         9.501e-01  1.782e-02  53.321  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83767 -0.22446 -0.02515  0.17658  2.44812 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.575e-01  6.080e-02   2.591  0.00997 ** 
+filered$tokenAmount  2.777e-25  6.889e-25   0.403  0.68717    
+filered$n           -5.482e-05  1.878e-04  -0.292  0.77052    
+filered$Open         9.503e-01  1.782e-02  53.337  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83690 -0.22417 -0.02483  0.17717  2.44787 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.557e-01  6.089e-02   2.558    0.011 *  
+filered$tokenAmount  3.182e-25  6.871e-25   0.463    0.644    
+filered$n           -5.465e-05  1.878e-04  -0.291    0.771    
+filered$Open         9.504e-01  1.782e-02  53.337   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83658 -0.22426 -0.02467  0.17737  2.44816 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.555e-01  6.088e-02   2.555    0.011 *  
+filered$tokenAmount  3.212e-25  6.871e-25   0.467    0.640    
+filered$n           -5.221e-05  1.877e-04  -0.278    0.781    
+filered$Open         9.504e-01  1.783e-02  53.308   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83692 -0.22421 -0.02456  0.17717  2.44821 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.559e-01  6.110e-02   2.551   0.0112 *  
+filered$tokenAmount  3.054e-25  6.814e-25   0.448   0.6543    
+filered$n           -5.181e-05  1.875e-04  -0.276   0.7824    
+filered$Open         9.504e-01  1.785e-02  53.245   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83706 -0.22422 -0.02462  0.17704  2.44833 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.563e-01  6.111e-02   2.558   0.0109 *  
+filered$tokenAmount  2.951e-25  6.811e-25   0.433   0.6651    
+filered$n           -5.187e-05  1.874e-04  -0.277   0.7822    
+filered$Open         9.504e-01  1.785e-02  53.253   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83651 -0.22397 -0.02495  0.17755  2.44829 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.110e-02   2.538   0.0116 *  
+filered$tokenAmount  3.265e-25  6.823e-25   0.478   0.6326    
+filered$n           -5.363e-05  1.879e-04  -0.285   0.7755    
+filered$Open         9.505e-01  1.784e-02  53.273   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83664 -0.22392 -0.02504  0.17748  2.44828 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.109e-02   2.538   0.0116 *  
+filered$tokenAmount  3.289e-25  6.823e-25   0.482   0.6301    
+filered$n           -5.525e-05  1.879e-04  -0.294   0.7689    
+filered$Open         9.505e-01  1.784e-02  53.292   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83675 -0.22388 -0.02512  0.17742  2.44828 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.108e-02   2.538   0.0116 *  
+filered$tokenAmount  3.306e-25  6.822e-25   0.485   0.6283    
+filered$n           -5.657e-05  1.877e-04  -0.301   0.7633    
+filered$Open         9.506e-01  1.783e-02  53.314   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83680 -0.22387 -0.02514  0.17739  2.44827 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.108e-02   2.538   0.0116 *  
+filered$tokenAmount  3.309e-25  6.822e-25   0.485   0.6280    
+filered$n           -5.694e-05  1.877e-04  -0.303   0.7617    
+filered$Open         9.506e-01  1.783e-02  53.316   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83606 -0.22397 -0.02492  0.17804  2.44816 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.534e-01  6.098e-02   2.516   0.0123 *  
+filered$tokenAmount  3.707e-25  6.811e-25   0.544   0.5866    
+filered$n           -5.845e-05  1.876e-04  -0.311   0.7556    
+filered$Open         9.507e-01  1.782e-02  53.355   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83520 -0.22357 -0.02487  0.17878  2.44793 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.098e-02   2.484   0.0135 *  
+filered$tokenAmount  4.150e-25  6.779e-25   0.612   0.5408    
+filered$n           -5.869e-05  1.876e-04  -0.313   0.7547    
+filered$Open         9.508e-01  1.782e-02  53.370   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83527 -0.22355 -0.02489  0.17874  2.44792 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.097e-02   2.484   0.0135 *  
+filered$tokenAmount  4.157e-25  6.779e-25   0.613   0.5401    
+filered$n           -5.934e-05  1.877e-04  -0.316   0.7521    
+filered$Open         9.508e-01  1.781e-02  53.376   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83510 -0.22362 -0.02483  0.17882  2.44793 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.097e-02   2.485   0.0134 *  
+filered$tokenAmount  4.135e-25  6.779e-25   0.610   0.5423    
+filered$n           -5.759e-05  1.876e-04  -0.307   0.7591    
+filered$Open         9.508e-01  1.781e-02  53.383   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83423 -0.22276 -0.02404  0.17970  2.44767 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.490e-01  6.103e-02   2.441   0.0151 *  
+filered$tokenAmount  4.705e-25  6.756e-25   0.696   0.4866    
+filered$n           -6.012e-05  1.875e-04  -0.321   0.7487    
+filered$Open         9.510e-01  1.781e-02  53.396   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83434 -0.22271 -0.02402  0.17965  2.44767 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.488e-01  6.104e-02   2.438   0.0153 *  
+filered$tokenAmount  4.747e-25  6.757e-25   0.703   0.4828    
+filered$n           -6.193e-05  1.875e-04  -0.330   0.7414    
+filered$Open         9.511e-01  1.781e-02  53.405   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83458 -0.22288 -0.02378  0.17950  2.44773 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.109e-02   2.443   0.0151 *  
+filered$tokenAmount  4.644e-25  6.755e-25   0.687   0.4922    
+filered$n           -6.223e-05  1.875e-04  -0.332   0.7402    
+filered$Open         9.511e-01  1.781e-02  53.397   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83475 -0.22288 -0.02379  0.17940  2.44773 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.109e-02   2.443   0.0151 *  
+filered$tokenAmount  4.657e-25  6.755e-25   0.689   0.4911    
+filered$n           -6.392e-05  1.875e-04  -0.341   0.7334    
+filered$Open         9.511e-01  1.781e-02  53.408   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83459 -0.22287 -0.02376  0.17962  2.44785 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.110e-02   2.442   0.0151 *  
+filered$tokenAmount  4.654e-25  6.756e-25   0.689   0.4913    
+filered$n           -6.230e-05  1.874e-04  -0.333   0.7397    
+filered$Open         9.511e-01  1.781e-02  53.390   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83339 -0.22166 -0.02338  0.17963  2.44806 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.470e-01  6.088e-02   2.414   0.0163 *  
+filered$tokenAmount  5.262e-25  6.728e-25   0.782   0.4347    
+filered$n           -6.745e-05  1.871e-04  -0.360   0.7188    
+filered$Open         9.512e-01  1.777e-02  53.538   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83344 -0.22169 -0.02341  0.17967  2.44807 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.471e-01  6.090e-02   2.415   0.0163 *  
+filered$tokenAmount  5.229e-25  6.721e-25   0.778   0.4371    
+filered$n           -6.718e-05  1.872e-04  -0.359   0.7199    
+filered$Open         9.512e-01  1.777e-02  53.535   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83328 -0.22276 -0.02345  0.17979  2.44808 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.473e-01  6.088e-02   2.419   0.0161 *  
+filered$tokenAmount  5.128e-25  6.678e-25   0.768   0.4431    
+filered$n           -6.366e-05  1.871e-04  -0.340   0.7339    
+filered$Open         9.512e-01  1.777e-02  53.534   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83297 -0.22278 -0.02332  0.17981  2.44810 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.471e-01  6.085e-02   2.418   0.0161 *  
+filered$tokenAmount  5.160e-25  6.675e-25   0.773   0.4401    
+filered$n           -6.246e-05  1.872e-04  -0.334   0.7388    
+filered$Open         9.511e-01  1.777e-02  53.523   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83279 -0.22306 -0.02322  0.17976  2.44810 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.470e-01  6.085e-02   2.416   0.0162 *  
+filered$tokenAmount  5.187e-25  6.673e-25   0.777   0.4375    
+filered$n           -6.161e-05  1.872e-04  -0.329   0.7422    
+filered$Open         9.511e-01  1.777e-02  53.518   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.80414 -0.21420 -0.01523  0.16407  2.43892 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.071e-01  6.382e-02   1.678   0.0943 .  
+filered$tokenAmount  4.235e-24  1.888e-24   2.243   0.0255 *  
+filered$n           -4.438e-04  4.554e-04  -0.974   0.3305    
+filered$Open         9.535e-01  1.830e-02  52.098   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4359 on 344 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.8963,	Adjusted R-squared:  0.8954 
+F-statistic: 991.3 on 3 and 344 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.81904 -0.21130 -0.01637  0.16358  2.44624 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.342e-01  6.414e-02   2.092   0.0371 *  
+filered$tokenAmount  2.282e-24  1.540e-24   1.482   0.1394    
+filered$n           -2.591e-04  2.349e-04  -1.103   0.2707    
+filered$Open         9.514e-01  1.851e-02  51.410   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.438 on 344 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.8953,	Adjusted R-squared:  0.8944 
+F-statistic: 980.6 on 3 and 344 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.84077 -0.22621 -0.02931  0.17692  2.44970 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.660e-01  5.976e-02   2.779  0.00576 ** 
+filered$tokenAmount  7.198e-26  7.212e-25   0.100  0.92055    
+filered$n           -4.738e-05  1.873e-04  -0.253  0.80047    
+filered$Open         9.495e-01  1.783e-02  53.249  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8991 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.84007 -0.22581 -0.02683  0.17645  2.44847 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.609e-01  6.079e-02   2.647   0.0085 ** 
+filered$tokenAmount  2.032e-25  6.928e-25   0.293   0.7695    
+filered$n           -6.268e-05  1.880e-04  -0.333   0.7391    
+filered$Open         9.503e-01  1.783e-02  53.287   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83886 -0.22550 -0.02617  0.17575  2.44833 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.598e-01  6.069e-02   2.633  0.00884 ** 
+filered$tokenAmount  2.256e-25  6.916e-25   0.326  0.74448    
+filered$n           -5.560e-05  1.879e-04  -0.296  0.76754    
+filered$Open         9.502e-01  1.782e-02  53.329  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83941 -0.22609 -0.02684  0.17654  2.44862 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.610e-01  6.082e-02   2.648  0.00848 ** 
+filered$tokenAmount  1.953e-25  6.915e-25   0.282  0.77775    
+filered$n           -5.636e-05  1.879e-04  -0.300  0.76439    
+filered$Open         9.501e-01  1.782e-02  53.320  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83970 -0.22636 -0.02708  0.17682  2.44869 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.615e-01  6.092e-02   2.650  0.00841 ** 
+filered$tokenAmount  1.857e-25  6.909e-25   0.269  0.78821    
+filered$n           -5.748e-05  1.879e-04  -0.306  0.75982    
+filered$Open         9.501e-01  1.782e-02  53.321  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4333 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1044 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83767 -0.22446 -0.02515  0.17658  2.44812 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.575e-01  6.080e-02   2.591  0.00997 ** 
+filered$tokenAmount  2.777e-25  6.889e-25   0.403  0.68717    
+filered$n           -5.482e-05  1.878e-04  -0.292  0.77052    
+filered$Open         9.503e-01  1.782e-02  53.337  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83690 -0.22417 -0.02483  0.17717  2.44787 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.557e-01  6.089e-02   2.558    0.011 *  
+filered$tokenAmount  3.182e-25  6.871e-25   0.463    0.644    
+filered$n           -5.465e-05  1.878e-04  -0.291    0.771    
+filered$Open         9.504e-01  1.782e-02  53.337   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83658 -0.22426 -0.02467  0.17737  2.44816 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.555e-01  6.088e-02   2.555    0.011 *  
+filered$tokenAmount  3.212e-25  6.871e-25   0.467    0.640    
+filered$n           -5.221e-05  1.877e-04  -0.278    0.781    
+filered$Open         9.504e-01  1.783e-02  53.308   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83692 -0.22421 -0.02456  0.17717  2.44821 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.559e-01  6.110e-02   2.551   0.0112 *  
+filered$tokenAmount  3.054e-25  6.814e-25   0.448   0.6543    
+filered$n           -5.181e-05  1.875e-04  -0.276   0.7824    
+filered$Open         9.504e-01  1.785e-02  53.245   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83706 -0.22422 -0.02462  0.17704  2.44833 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.563e-01  6.111e-02   2.558   0.0109 *  
+filered$tokenAmount  2.951e-25  6.811e-25   0.433   0.6651    
+filered$n           -5.187e-05  1.874e-04  -0.277   0.7822    
+filered$Open         9.504e-01  1.785e-02  53.253   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:    0.9,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83651 -0.22397 -0.02495  0.17755  2.44829 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.110e-02   2.538   0.0116 *  
+filered$tokenAmount  3.265e-25  6.823e-25   0.478   0.6326    
+filered$n           -5.363e-05  1.879e-04  -0.285   0.7755    
+filered$Open         9.505e-01  1.784e-02  53.273   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83664 -0.22392 -0.02504  0.17748  2.44828 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.109e-02   2.538   0.0116 *  
+filered$tokenAmount  3.289e-25  6.823e-25   0.482   0.6301    
+filered$n           -5.525e-05  1.879e-04  -0.294   0.7689    
+filered$Open         9.505e-01  1.784e-02  53.292   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83675 -0.22388 -0.02512  0.17742  2.44828 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.108e-02   2.538   0.0116 *  
+filered$tokenAmount  3.306e-25  6.822e-25   0.485   0.6283    
+filered$n           -5.657e-05  1.877e-04  -0.301   0.7633    
+filered$Open         9.506e-01  1.783e-02  53.314   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83680 -0.22387 -0.02514  0.17739  2.44827 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.550e-01  6.108e-02   2.538   0.0116 *  
+filered$tokenAmount  3.309e-25  6.822e-25   0.485   0.6280    
+filered$n           -5.694e-05  1.877e-04  -0.303   0.7617    
+filered$Open         9.506e-01  1.783e-02  53.316   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4332 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83606 -0.22397 -0.02492  0.17804  2.44816 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.534e-01  6.098e-02   2.516   0.0123 *  
+filered$tokenAmount  3.707e-25  6.811e-25   0.544   0.5866    
+filered$n           -5.845e-05  1.876e-04  -0.311   0.7556    
+filered$Open         9.507e-01  1.782e-02  53.355   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83520 -0.22357 -0.02487  0.17878  2.44793 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.098e-02   2.484   0.0135 *  
+filered$tokenAmount  4.150e-25  6.779e-25   0.612   0.5408    
+filered$n           -5.869e-05  1.876e-04  -0.313   0.7547    
+filered$Open         9.508e-01  1.782e-02  53.370   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83527 -0.22355 -0.02489  0.17874  2.44792 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.097e-02   2.484   0.0135 *  
+filered$tokenAmount  4.157e-25  6.779e-25   0.613   0.5401    
+filered$n           -5.934e-05  1.877e-04  -0.316   0.7521    
+filered$Open         9.508e-01  1.781e-02  53.376   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83510 -0.22362 -0.02483  0.17882  2.44793 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.515e-01  6.097e-02   2.485   0.0134 *  
+filered$tokenAmount  4.135e-25  6.779e-25   0.610   0.5423    
+filered$n           -5.759e-05  1.876e-04  -0.307   0.7591    
+filered$Open         9.508e-01  1.781e-02  53.383   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4331 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8992 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83423 -0.22276 -0.02404  0.17970  2.44767 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.490e-01  6.103e-02   2.441   0.0151 *  
+filered$tokenAmount  4.705e-25  6.756e-25   0.696   0.4866    
+filered$n           -6.012e-05  1.875e-04  -0.321   0.7487    
+filered$Open         9.510e-01  1.781e-02  53.396   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83434 -0.22271 -0.02402  0.17965  2.44767 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.488e-01  6.104e-02   2.438   0.0153 *  
+filered$tokenAmount  4.747e-25  6.757e-25   0.703   0.4828    
+filered$n           -6.193e-05  1.875e-04  -0.330   0.7414    
+filered$Open         9.511e-01  1.781e-02  53.405   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83458 -0.22288 -0.02378  0.17950  2.44773 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.109e-02   2.443   0.0151 *  
+filered$tokenAmount  4.644e-25  6.755e-25   0.687   0.4922    
+filered$n           -6.223e-05  1.875e-04  -0.332   0.7402    
+filered$Open         9.511e-01  1.781e-02  53.397   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83475 -0.22288 -0.02379  0.17940  2.44773 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.109e-02   2.443   0.0151 *  
+filered$tokenAmount  4.657e-25  6.755e-25   0.689   0.4911    
+filered$n           -6.392e-05  1.875e-04  -0.341   0.7334    
+filered$Open         9.511e-01  1.781e-02  53.408   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83459 -0.22287 -0.02376  0.17962  2.44785 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.492e-01  6.110e-02   2.442   0.0151 *  
+filered$tokenAmount  4.654e-25  6.756e-25   0.689   0.4913    
+filered$n           -6.230e-05  1.874e-04  -0.333   0.7397    
+filered$Open         9.511e-01  1.781e-02  53.390   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9001,	Adjusted R-squared:  0.8993 
+F-statistic:  1045 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83339 -0.22166 -0.02338  0.17963  2.44806 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.470e-01  6.088e-02   2.414   0.0163 *  
+filered$tokenAmount  5.262e-25  6.728e-25   0.782   0.4347    
+filered$n           -6.745e-05  1.871e-04  -0.360   0.7188    
+filered$Open         9.512e-01  1.777e-02  53.538   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83344 -0.22169 -0.02341  0.17967  2.44807 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.471e-01  6.090e-02   2.415   0.0163 *  
+filered$tokenAmount  5.229e-25  6.721e-25   0.778   0.4371    
+filered$n           -6.718e-05  1.872e-04  -0.359   0.7199    
+filered$Open         9.512e-01  1.777e-02  53.535   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83328 -0.22276 -0.02345  0.17979  2.44808 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.473e-01  6.088e-02   2.419   0.0161 *  
+filered$tokenAmount  5.128e-25  6.678e-25   0.768   0.4431    
+filered$n           -6.366e-05  1.871e-04  -0.340   0.7339    
+filered$Open         9.512e-01  1.777e-02  53.534   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83297 -0.22278 -0.02332  0.17981  2.44810 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.471e-01  6.085e-02   2.418   0.0161 *  
+filered$tokenAmount  5.160e-25  6.675e-25   0.773   0.4401    
+filered$n           -6.246e-05  1.872e-04  -0.334   0.7388    
+filered$Open         9.511e-01  1.777e-02  53.523   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+
+
+Call:
+lm(formula = filered$new_Close ~ filered$tokenAmount + filered$n + 
+    filered$Open)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.83279 -0.22306 -0.02322  0.17976  2.44810 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          1.470e-01  6.085e-02   2.416   0.0162 *  
+filered$tokenAmount  5.187e-25  6.673e-25   0.777   0.4375    
+filered$n           -6.161e-05  1.872e-04  -0.329   0.7422    
+filered$Open         9.511e-01  1.777e-02  53.518   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.433 on 348 degrees of freedom
+  (1 observation deleted due to missingness)
+Multiple R-squared:  0.9002,	Adjusted R-squared:  0.8993 
+F-statistic:  1046 on 3 and 348 DF,  p-value: < 2.2e-16
+

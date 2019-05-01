@@ -1,0 +1,25 @@
+[1] 30519
+# A tibble: 2 x 2
+     toID     n
+    <dbl> <int>
+1  662226     5
+2 2962414     1
+Fitting of the distribution ' exp ' by maximum likelihood 
+Parameters:
+     estimate Std. Error
+rate        1  0.4082479
+<simpleError in optim(par = vstart, fn = fnobj, fix.arg = fix.arg, obs = data,     gr = gradient, ddistnam = ddistname, hessian = TRUE, method = meth,     lower = lower, upper = upper, ...): non-finite value supplied by optim>
+Fitting of the distribution ' exp ' by maximum likelihood 
+Parameters:
+     estimate Std. Error
+rate        1  0.4082479
+<simpleError in optim(par = vstart, fn = fnobj, fix.arg = fix.arg, obs = data,     gr = gradient, ddistnam = ddistname, hessian = TRUE, method = meth,     lower = lower, upper = upper, ...): non-finite value supplied by optim>
+# A tibble: 6 x 4
+   fromID    toID   unixTime tokenAmount
+    <dbl>   <dbl>      <dbl>       <dbl>
+1 4471213  662226 1522979506     1.00e14
+2 4469004  662226 1522979506     1.00e14
+3 4470552  662226 1522979582     1.00e14
+4 4471249  662226 1522979643     1.00e14
+5 4471713  662226 1522979663     1.00e14
+6 2962413 2962414 1523128726     4.89e12
