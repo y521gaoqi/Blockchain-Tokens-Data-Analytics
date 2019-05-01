@@ -11,15 +11,15 @@ library(data.table)
 
 
 ##############################Question 2####################################
-tierion_prices <- read_delim("C:/Users/ygaoq/OneDrive/MyDocuments/2019 Spring/Statistics/Project/Blockchain-Tokens-Data-Analytics/bat", delim = "\t", col_names = T) #load token price data
+tierion_prices <- read_delim("C:/Users/ygaoq/OneDrive/MyDocuments/2019 Spring/Statistics/Project/Blockchain-Tokens-Data-Analytics/aragon", delim = "\t", col_names = T) #load token price data
 names(tierion_prices) <- make.names(names(tierion_prices))
 tierion_prices
 tierion_prices <- tierion_prices %>% mutate(date = as.Date(Date, format = '%m/%d/%Y'))
 tierion_prices
-tierion <- read_delim('C:/Users/ygaoq/OneDrive/MyDocuments/2019 Spring/Statistics/Project/Blockchain-Tokens-Data-Analytics/networkbatTX.txt', delim = " ", col_names = F)
+tierion <- read_delim('C:/Users/ygaoq/OneDrive/MyDocuments/2019 Spring/Statistics/Project/Blockchain-Tokens-Data-Analytics/networkaragonTX.txt', delim = " ", col_names = F)
 names(tierion) <- c('fromID', 'toID', 'unixTime', 'tokenAmount')
 decimals <- 10^18
-supply <- 1.5 * 10^9
+supply <- 39609523
 tierion_filtered <-filter(tierion,tokenAmount < decimals * supply)
 buys<-tierion_filtered%>% group_by(toID) %>% summarise(n = n()) %>% ungroup #change the supply and decimals amount
 buys_sorted_dec<-buys[order(-buys$n),]
@@ -56,10 +56,10 @@ shift <- function(x, n){
   c(x[-(seq(n))], rep(NA, n))
 }
 filered$new_Close<-shift(filered$Close,1)
-filered[51,6]=0.407727
+filered[353,6]=4.51
 #shift(filered$Close, n=1, fill=NA, type="lead")
 #df = data.frame(x=filered$tokenAmount+filered$Open, y=filered$Close)
-regression<-lm(filered$Close~filered$tokenAmount+filered$n)
+regression<-lm(filered$new_Close~filered$tokenAmount+filered$n+filered$Open)
 summary(regression)
 plot(filered$tokenAmount+filered$n+filered$Open,filered$Close)
 abline(regression)

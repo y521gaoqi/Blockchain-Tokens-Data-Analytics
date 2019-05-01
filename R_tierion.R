@@ -108,7 +108,7 @@ all_density <- ggplot(data=buys_pair_less_30) +
                 colour = "blue")+
   stat_function(fun=dexp, args=list(rate=0.6623558),colour="green")+
   stat_function(fun=dweibull, args=list(shape=1.360851, scale=1.678697),colour="yellow")+
-  stat_function(fun=dpois, args=list(lambda=1.509763),colour="orange")
+  stat_function(fun=dpois, args=list(lambda=1.509763),colour="orange")+  xlab("No.Buys")
 all_density
 
 ########################################Question 1############################################
@@ -137,9 +137,6 @@ top_30_buyers<-buys_sorted_dec%>%head(30)
 
 top_K<-c(1:30)
 count <- 1
-#png("C:/Users/ygaoq/Desktop/Tierion/A1.png",width=600,height=600)
-sink("C:/Users/ygaoq/Desktop/Tierion/data.txt")
-results<-c()
 for (val in top_K) {
   top_K_buyers<-buys_sorted_dec%>%head(val)
   filter_K_tierion_merged<-filter(tierion_merged,toID %in% top_K_buyers$toID)
@@ -154,9 +151,10 @@ for (val in top_K) {
   filered[-num_rows,]
   regression<-lm(filered$new_Close~filered$tokenAmount+filered$n+filered$Open)
   
-  sink("C:/Users/ygaoq/Desktop/Tierion/data.txt",append=TRUE) # ?????????????????????hello.txt
-  regression
-  sink() # ??????????????? 
+  setwd("C:/Users/ygaoq/Desktop/Tierion")
+  yourfilename=paste("W",val,".txt",sep="")
+  capture.output(summary(regression),append = TRUE,file = "C:/Users/ygaoq/Desktop/Tierion/Final_Result.txt")
+  
   
   summary(regression)
   par(mfcol=c(2,2))
@@ -167,30 +165,5 @@ for (val in top_K) {
   plot(regression)
   dev.off()
 }
-results
-sink()
-##filter out top 30 buyers in the dataset
-filter_K_tierion_merged<-filter(tierion_merged,toID %in% top_30_buyers$toID)
-#get average price from open and close price and add it as a new column
-filter_K_tierion_merged=transform(filter_K_tierion_merged,average_price= (Open+Close)/2)
 
-############group by date#########
-filter_K_tierion_merged$num_Date <-  as.numeric(as.POSIXct(filter_K_tierion_merged$date))
-filered<-filter_K_tierion_merged%>% group_by(num_Date) %>% summarise(n = n(),Close=mean(Close),tokenAmount=sum(tokenAmount),Open=mean(Open))
-
-#shift close price in order to get price of next date
-shift <- function(x, n){
-  c(x[-(seq(n))], rep(NA, n))
-}
-filered$new_Close<-shift(filered$Close,1)
-filered[253,6]=0.130517
-
-#############find out parameters of regression model
-regression<-lm(filered$new_Close~filered$tokenAmount+filered$n+filered$Open)
-summary(regression)
-par(mfcol=c(2,2))
-plot(regression)
-par(mfcol=c(1,1))
-plot(filered$tokenAmount+filered$n+filered$Open,filered$Close)
-abline(regression)
 
