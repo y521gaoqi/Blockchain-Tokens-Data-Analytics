@@ -59,8 +59,8 @@ pois_dis
 weibull_dis <- fitdist(buys_pair_less_30$n, 'weibull')
 weibull_dis
 
-gofstat(list(exp_dis, gamma_dis, lnorm_dis))
-descdist(buys_sorted_asc$n,boot=1000)
+gofstat(list(exp_dis, gamma_dis, lnorm_dis,pois_dis,weibull_dis))
+descdist(buys_pair_less_30$n,boot=1000)
 
 #lognorm
 fit_lnorm <- fitdist(buys_pair_less_30$n,"lnorm")

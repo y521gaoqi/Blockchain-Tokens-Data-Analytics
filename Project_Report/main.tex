@@ -16,7 +16,7 @@
 \usepackage{comment} % Necessary to comment several paragraphs at once
 %\usepackage[utf8]{inputenc} % Required for international characters
 \usepackage[T1]{fontenc} % Required for output font encoding for international characters
-
+\usepackage{listings}
 % Might be helpful
 \usepackage{amsmath,amsfonts,amsthm} % Math packages which might be useful for equations
 \usepackage{tikz} % For tikz figures (to draw arrow diagrams, see a guide how to use them)
@@ -119,7 +119,15 @@ Pancham Mamania \big(pxm172730@utdallas.edu\big)
 %---------------------------------------------------------------------------------
 
 \begin{document}
-
+\lstset{numbers=left,
+numberstyle=\tiny,
+keywordstyle=\color{blue!70},
+commentstyle=\color{red!50!green!50!blue!50},
+%frame=shadowbox,
+rulesepcolor=\color{red!20!green!20!blue!20},
+breaklines=true,
+extendedchars=true
+}
 
 % If you want a cover page, uncomment "\input{coverpage.tex}" and uncomment "\begin{comment}" and "\end{comment}" to comment the following lines
 %\input{coverpage.tex}
@@ -143,23 +151,40 @@ Ethereum is an innovation that applies some of the technologies and concepts of 
 
 \subsection{Project Tokens}  % Add another subsection
 \subsubsection{Tierion}
+Tierion is building a common data validation platform. Tierion's working principle is simply to create a proof that associates data with transactions on a blockchain. This process is called "anchoring." Anyone with this proof can verify the integrity and time stamp of the data without relying on any trusted authority.
 
-Citing in \LaTeX is easy. You could easier cite with the text flow like this ``Referring to \citet{collier2004greed} ...''  or at the end of the sentence \cite{collier2004greed}. You can also cite pages like this \citep[55]{collier2004greed}. If you want to add an additional note, you might want to do it this way \citep[cp.][22]{collier2004greed} or like this \citep[cp.][]{collier2004greed}.\\
-\blindtext % Adds some blintext to your text
+\subsubsection{Aragon}
+Aragon's decentralized APP on the Ethereum blockchain allows anyone to create and manage any organization. It implements the basic functions of shareholder roster, token transfer, voting, job appointment, financing, and accounting. It can be defined by modifying the charter. The behavior of organizations on the chain provides opportunities to create and manage decentralized organizations.
+
+\subsubsection{Bitqy}
+Bitqy is also called BQ, which is the official cryptocurrency issued by Bitqyck. Bitqyck will use BQ to scan various cryptocurrencies, including bitcoin and full-service data support and management.
+
 
 %----------------------------------------------------------------------------------------
 % Literature review
 %----------------------------------------------------------------------------------------
 
-\section{Literature review}
+\section{Project Goal}
+This project has two parts. The first goal is to filter out all outliers from each tokens and then find out the best distribution for each token. The second part is that we find out the best K that is the number of most active buyers, which bought most tokens or has most number of transactions. And the top K buyers' data gives the best fitted multiple regression model.
 
-\blindtext % Some blind text
-
-\subsection{Some subsection}
-\blindtext % Some more blind text
+\subsection{Question 1}
+The tokens we picked is Tierion, Aragon, and Bitqy. Because we cannot find token126, hms and lino in token pirce folder, so we moved down and picked Bitqy as our third token.
+First of all, we read data file and then filtered out all outliers which amount of tokens per transcation is larger than total supply.
+\lstset{language=R}
+\begin{lstlisting}
+bitqy <- read_delim('C:/Users/ygaoq/OneDrive/MyDocuments/2019 Spring/Statistics/Project/Blockchain-Tokens-Data-Analytics/networkbitqyTX.txt', delim = " ", col_names = F)
+names(bitqy) <- c('fromID', 'toID', 'unixTime', 'tokenAmount')
+decimals <- 2
+supply <- 1 * 10^10
+#filter out all outliers
+bitqyFiltered <-filter(bitqy,tokenAmount < decimals * supply)
+#figure out how many users indruced those unnormal transcation
+bitqy_outliers<- filter(bitqy,tokenAmount >= decimals * supply)
+user_outliers <- bitqy_outliers %>% group_by(toID) %>% summarise(n = n()) %>% ungroup
+number_users_outliers<-nrow(user_outliers)
+\end{lstlisting}
 
 \subsubsection{And a subsubsection}
-\blindtext % Even more blind text
 
 And here you have a list with dots and dashes:
 \begin{itemize}
