@@ -293,16 +293,16 @@ for (val in top_K) {
   filter_K_tierion_merged$num_Date <-  as.numeric(as.POSIXct(filter_K_tierion_merged$date))
   #This is an important step. This is to group data by date, and sum up tokenAmount, take average of Close price of top K buyers made in same date, those data will be used later.
   filered<-filter_K_tierion_merged%>% group_by(num_Date) %>% summarise(n = n(),Close=mean(Close),tokenAmount=sum(tokenAmount),average_price=mean(average_price))
-	#shift down Close price by one day in order to use the Close price as outcome that is price of next day.
+  #shift down Close price by one day in order to use the Close price as outcome that is price of next day.
   shift <- function(x, n){
     c(x[-(seq(n))], rep(NA, n))
   }
   filered$new_Close<-shift(filered$Close,1)
   num_rows<-nrow(filered)
   filered[-num_rows,]
-	#fit data in multiple regression model
+  #fit data in multiple regression model
   regression<-lm(filered$new_Close~filered$tokenAmount+filered$n+filered$average_price)
-	#export paramaters and graph to local
+  #export paramaters and graph to local
   setwd("C:/Users/ygaoq/Desktop/Tierion")
   yourfilename=paste("W",val,".txt",sep="")
   capture.output(summary(regression),append = TRUE,file = "Final_Result.txt")
